@@ -44,13 +44,14 @@ Alunos
 	    ]
 
 Batidas
-	- POST /api/v1/batida - serviço par ainclusão de batida de ponto
+	- POST /api/v1/batida - serviço para inclusão de batida de ponto
 		você deverá informar as seguintes informações:
 		"idUsuario"=>(código de um aluno existente)
 		"tipoBatida" =>(numerico)-(1- entrada e 2- saída)
 
 	
-	- GET /api/v1/batida/{idAluno} - serviço de consulta de todas as batidas de ponto do aluno e irá retornar o totalde horas trabalhadas.
+	- GET /api/v1/batida/{idAluno} - serviço de consulta de todas as batidas de ponto do aluno e 
+	  irá retornar o total de horas trabalhadas.
 		- idAluno = deve se informar o código do aluno cadastrado,segue exemplo:
 		
 		{
